@@ -1,0 +1,28 @@
+{
+    "characters": [
+      {
+        "id": "alessandro",
+        "name": "Alessandro",
+        "description": "Elegant Italian assistant",
+        "image": "/app/public/characters/images/C1.png",
+        "theme": {
+          "fabStyle": "minimal",
+          "chatStyle": "minimal",
+          "primaryColor": "#1a1a1a",
+          "fontFamily": "'Playfair Display', serif"
+        }
+      },
+      {
+        "id": "zoey",
+        "name": "Zoey",
+        "description": "Friendly shop assistant",
+        "image": "/app/public/characters/images/C2.png",
+        "theme": {
+          "fabStyle": "floating",
+          "chatStyle": "floating",
+          "primaryColor": "#6366f1",
+          "fontFamily": "'Inter', sans-serif"
+        }
+      }
+    ]
+  }
