@@ -3,7 +3,7 @@
 client_id = "2f56ce617764897caa764a7ad13f28e8"
 name = "shop-chat-agent"
 handle = "shop-chat-agent-373"
-application_url = "https://localhost:3458"
+application_url = "https://zyra-app-six.vercel.app"
 embedded = true
 
 [build]
@@ -19,9 +19,9 @@ scopes = "customer_read_customers,customer_read_orders,customer_read_store_credi
 
 [auth]
 redirect_urls = [
-  "https://localhost:3458/auth/callback",
-  "https://localhost:3458/auth/shopify/callback",
-  "https://localhost:3458/api/auth/callback"
+  "https://zyra-app-six.vercel.app/auth/callback",
+  "https://zyra-app-six.vercel.app/auth/shopify/callback",
+  "https://zyra-app-six.vercel.app/api/auth/callback"
 ]
 
 [pos]
