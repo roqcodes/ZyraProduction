@@ -2,8 +2,8 @@
   "name": "shop-chat-agent",
   "private": true,
   "scripts": {
-    "build": "prisma generate && remix build",
-    "prisma:generate": "prisma generate",
+    "build": "npx prisma generate && remix build",
+    "prisma:generate": "npx prisma generate",
     "dev": "shopify app dev",
     "config:link": "shopify app config link",
     "generate": "shopify app generate",
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.40.0",
-    "@prisma/client": "^6.2.1",
+    "@prisma/client": "^6.9.0",
     "@remix-run/dev": "^2.16.1",
     "@remix-run/fs-routes": "^2.16.1",
     "@remix-run/node": "^2.16.1",
